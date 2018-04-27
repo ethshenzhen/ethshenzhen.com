@@ -1,3 +1,3 @@
-# ethshenzhen.com
+# ETH shenzhen
 
 Coming soon...
