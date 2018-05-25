@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ETH Shenzhen - July 13-15th, 2018</title>
+  <title>ETH Shenzhen
+    <!-- - July 13-15th, 2018 -->
+  </title>
   <meta name="description" content="July 13-15th, 2018. Shenzhen, China.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,11 +51,54 @@
     a:hover {
       color: #4867AB;
     }
-    .contact {
+
+    #contact {
       color: #666;
       margin-top: 3em;
       font-size: 1.2em;
       line-height: 1.3em;
+    }
+
+    #contact p {
+      margin-bottom: 1em;
+    }
+
+    #contact li {
+      display: inline;
+      list-style-type: none;
+      padding-right: 10px;
+    }
+
+    .social {
+      margin: 0 !important;
+    }
+    .social a {
+      display: inline-block;
+      text-indent: -9999px;
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+    }
+
+    .social svg path {
+      fill: #CCC;
+    }
+
+    .social .twitter {
+      background: url('/img/social/twitter.svg') no-repeat;
+    }
+
+    .social .facebook {
+      background: url('/img/social/facebook.svg') no-repeat;
+    }
+
+    .social .telegram {
+      background: url('/img/social/telegram.png') no-repeat;
+      background-size: 30px;
+    }
+
+    .social .github {
+      background: url('/img/social/github.svg') no-repeat;
     }
   </style>
 </head>
@@ -61,9 +106,36 @@
   <img src="/img/ETHShenzhen-logo.svg" alt="ETH Shenzhen Logo ">
   <h1>ETH Shenzhen</h1>
   <h3>Join the summer of love.</h3>
-  <h4>July 13-15th, 2018. Shenzhen, China.</h4>
-  <p class="contact">
-    Follow <a href="https://twitter.com/ethshenzhen">@ETHshenzhen</a> for updates.
-  </p>
+  <!-- <h4>July 13-15th, 2018. Shenzhen, China.</h4> -->
+  <div id="contact">
+    <p>
+      Follow <a href="https://twitter.com/ethshenzhen">@ETHshenzhen</a> for updates.
+    </p>
+    <p>
+      <small>
+        To support this community, get in touch at
+        <a href="mailto:sponsors@ethshenzhen.com">
+          sponsors@ethshenzhen.com
+        </a>
+      </small>
+    </p>
+    <ul>
+      <li class="social">
+        <a class="twitter" href="https://twitter.com/ethshenzhen" title="Twitter">
+          Twitter
+        </a>
+      </li>
+      <li class="social">
+        <a class="github" href="https://github.com/ethshenzhen" title="Github">
+          GitHub
+        </a>
+      </li>
+      <li class="social">
+        <a class="telegram" href="https://t.me/joinchat/EEP3LBC5ysmRxblpUomf_A" title="Telegram">Telegram</a>
+      </li>
+    </ul>
+  </div>
+
+  </div>
 </body>
 </html>
